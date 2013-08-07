@@ -1,0 +1,29 @@
+{
+  "name": "rss-emitter",
+  "version": "0.0.1",
+  "description": "Small library which import RSS feeds and emit upon new entries — Edit",
+  "main": "index.js",
+  "dependencies": {
+    "feedparser": "~0.16.1",
+    "levelup": "~0.12.0",
+    "request": "~2.25.0",
+    "leveldown": "~0.6.2",
+    "underscore": "~1.5.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cerisier/node-rss-emitter.git"
+  },
+  "keywords": [
+    "rss"
+  ],
+  "author": "Corentin Kerisit <c@42.am>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cerisier/node-rss-emitter/issues"
+  }
+}
