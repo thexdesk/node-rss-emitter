@@ -3,7 +3,7 @@ node-rss-emitter
 
 Small module which import RSS feeds and emit events upon new entries
 
-# example
+## example
 
 ```coffee
 RssEmitter = require 'rss-emitter'
