@@ -8,7 +8,7 @@ Small module which import RSS feeds and emit events upon new entries
 ```coffee
 RssEmitter = require 'rss-emitter'
 
-emitter = new RssEmitter('feeds.db')
+emitter = new RssEmitter 'feeds.db'
 
 emitter.on 'item:new', (guid) ->
   console.log "adding: #{guid}"
