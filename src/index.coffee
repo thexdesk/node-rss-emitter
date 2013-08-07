@@ -5,9 +5,9 @@ levelup = require 'levelup'
 {EventEmitter} = require 'events'
 
 class RssEmitter extends EventEmitter
-  constructor: ->
+  constructor: (dbName) ->
 
-    @db = levelup 'mydb'
+    @db = levelup dbName
 
   import: (url) ->
 
