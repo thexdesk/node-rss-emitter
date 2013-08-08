@@ -2,7 +2,7 @@
   "name": "rss-emitter",
   "version": "0.0.1",
   "description": "Small library which import RSS feeds and emit upon new entries — Edit",
-  "main": "index.js",
+  "main": "lib/index.js",
   "dependencies": {
     "feedparser": "~0.16.1",
     "levelup": "~0.12.0",
