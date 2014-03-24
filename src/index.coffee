@@ -22,7 +22,7 @@ class RssEmitter extends EventEmitter
       self.db.get item.guid, (err, value) ->
         if err
           self.db.put item.guid, '.', (err) ->
-            self.emit 'item:new', item.guid
+            self.emit 'item:new', item.guid, item
         else
           self.emit 'item:skipped', item.guid
 
