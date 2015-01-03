@@ -20,8 +20,8 @@ var RssEmitter = require('rss-emitter');
 
 var emitter = new RssEmitter('feeds.db');
 
-emitter.on('item:new', function(guid) {
-   return console.log("adding: " + guid);
+emitter.on('item:new', function(guid, item) {
+   return console.log("adding: " + guid, item);
 });
 
 emitter.on('item:skipped', function(guid) {
@@ -38,8 +38,8 @@ RssEmitter = require 'rss-emitter'
 
 emitter = new RssEmitter 'feeds.db'
 
-emitter.on 'item:new', (guid) ->
-  console.log "adding: #{guid}"
+emitter.on 'item:new', (guid, item) ->
+  console.log "adding: #{guid}", item
 
 emitter.on 'item:skipped', (guid) ->
   console.log "skipping: #{guid}"
