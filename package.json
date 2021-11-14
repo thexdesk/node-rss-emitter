@@ -4,7 +4,7 @@
   "description": "Small library which import RSS feeds and emit upon new entries — Edit",
   "main": "lib/index.js",
   "dependencies": {
-    "feedparser": "~0.16.1",
+    "feedparser": "~0.19.2",
     "levelup": "~0.12.0",
     "request": "~2.25.0",
     "leveldown": "~0.6.2",
