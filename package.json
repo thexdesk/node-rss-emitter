@@ -6,7 +6,7 @@
   "dependencies": {
     "feedparser": "~0.16.1",
     "levelup": "~0.12.0",
-    "request": "~2.25.0",
+    "request": "~2.88.2",
     "leveldown": "~0.6.2",
     "underscore": "~1.5.1"
   },
